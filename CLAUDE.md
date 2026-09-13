@@ -1,11 +1,16 @@
-# claude-course-starter
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## claude-course-starter
 
 A tiny Express API with an in-memory user store, used as the Claude Code course starter project.
 
 ## Commands
 
 - `npm run dev` — start the API on http://localhost:3000 with auto-reload
-- `npm test` — run the tests (`node --test`)
+- `npm test` — run the full test suite (`node --test`)
+- `node --test tests/users.test.js` — run a single test file
 - `npm run lint` — check code style with ESLint
 
 ## Conventions
